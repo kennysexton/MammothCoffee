@@ -1,0 +1,28 @@
+body {
+    background-color: #EDF8FA;
+}
+
+.main-content {
+    margin: 0px 10%;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 3px;
+}
+
+.padding {
+    padding: 8% 0%;
+    background-color: #F0F4F5;
+}
+
+.contact-card {
+    margin: 5%;
+    border-radius: 3px;
+}
+
+.card-cont {
+    padding: 5%;
+}
+
+.gallery{
+    width: 30%;
+}
