@@ -21,20 +21,26 @@ body {
     border-radius: 3px;
 }
 
-
-
 .gallery{
     width: 30%;
 }
 
-/*
-.card-cont {
-    float: right;
-}*/
+.left-img{
+    padding-bottom: 8%;
+}
 
 .right {
     float:right;
-    width: 60%;
-    
+    width: 60%;  
+}
+
+h2 {
+    font-weight: 400;
+    padding: 0.25em 0em;
+}
+
+p {
+    padding: 1.8em 0em;
+    line-height: 1.7;
 }
 
