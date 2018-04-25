@@ -87,3 +87,28 @@ button {
 button:hover {
     background-color: rgba(255,173,51, 0.9);
 }
+
+h3 {
+    font-family: Raleway;
+    text-align: center;
+    font-size: 4em;
+    padding: 5% 0 5% 0;
+    font-weight: 400;
+}
+
+.hero {
+    height: 500px;
+	background-size: cover;
+	background-position: center;
+}
+
+#store {
+    background-image: url("../img/storefront.jpg");
+}
+
+@media screen and (max-width: 1020px) {
+    .main-content{
+        margin: 0px 0%; 
+    }
+   
+}

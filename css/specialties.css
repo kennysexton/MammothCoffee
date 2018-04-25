@@ -44,3 +44,29 @@ p {
     line-height: 1.7;
 }
 
+h3 {
+    text-align: center;
+    font-size: 4em;
+    padding: 0% 0 10% 0;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 1020px) {
+    .main-content{
+        margin: 0px 0%; 
+    }
+    
+    
+    p {
+        padding: .7em 0em;
+        line-height: 1.5;
+    }
+    
+     h2 {
+        padding: 0em 0em;
+    }
+
+   
+}
+

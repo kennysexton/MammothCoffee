@@ -30,11 +30,38 @@ body {
 /*    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
 }
 
+#wide {
+    margin: 10% 0% 0% 0;
+}
+
 h1 {
     font-family: raleway;
     font-weight: 100;
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+h2 {
+    font-family: raleway;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+/*
+h4 {
+    text-align: center;
+    font-family: raleway;
+    font-weight: 800;
+    font-size: 36px;
+}
+*/
+
+h5 {
+   font-family: raleway;
+    font-weight: 100;
+    font-size: 18px;
 }
 
 p {
@@ -46,7 +73,7 @@ p {
 .cta {
     position: relative;
     top: 50%;
-    left: 50%;
+    left: 45%;
     margin: -1.2% -4%;
     padding: 1% 3.5%;
     font-size: 24px;
@@ -61,5 +88,23 @@ p {
     background-color: rgba(255,255,255, 1);
     border: 2px solid #ffad33;
     color: #ffad33;
+}
+
+.food-menu {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+    
+}
+
+#menu {
+    display: block;
+    margin: auto;
+}
+
+a {
+  color: blue;
+  text-decoration: none; /* no underline */
 }
 
